@@ -6,7 +6,7 @@
 # Why ?
 - Just for practice and fun :D
 
-# Let's go to the code
+## Let's go to the code
 
 ### Modules
 Importing the Mysql library
