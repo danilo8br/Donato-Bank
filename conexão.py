@@ -28,7 +28,7 @@ def select(fields, tables, where=None): # Campos, tabelas e clausula None
 
 def insert(values, table, fields=None): # Valores, tabelas e campos 
 
-    global c, con # Cursor e coneção
+    global c, con # Cursor e conexão
 
     query = "INSERT INTO " + table
     if (fields):
