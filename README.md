@@ -18,3 +18,33 @@ Importing Libraries
 ```
 import MySQLdb
 ```
+
+<details><summary>Sleep</summary>
+  Importing the sleep library
+</details>
+
+```
+from time import sleep
+```
+
+### Bank details
+
+<details><summary>Data</summary>
+  Your bank details to connect
+</details>
+
+```
+host = "o host"
+user = "seu usuario"
+password = "sua senha"
+db = "nome do banco"
+port = "porta" # Example: 3306
+```
+
+
+
+
+
+
+
+
