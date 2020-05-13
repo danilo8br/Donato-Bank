@@ -127,4 +127,23 @@ insert(values, "pessoas")
 
 print('Cadastrado com sucesso')
 ```
+### Bank MySQL
+Data
 
+<details><summary>Data Bank</summary>
+  Data in the bank
+</details>
+
+```
+CREATE TABLE pessoas (
+	id INT AUTO_INCREMENT NOT NULL,
+	nome VARCHAR(30),
+    email VARCHAR(50),
+    senha VARCHAR(30),
+    sexo ENUM ('F', 'M'),
+    idade INT(18),
+    cpf VARCHAR(14),
+    endereço VARCHAR(30),
+    CONSTRAINT PK_pessoas PRIMARY KEY (id)
+    );
+```
