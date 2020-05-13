@@ -131,13 +131,13 @@ print('Cadastrado com sucesso')
 Data
 
 <details><summary>Data Bank</summary>
-  Data in the bank
+	Bank that receives program data
 </details>
 
 ```
 CREATE TABLE pessoas (
-	id INT AUTO_INCREMENT NOT NULL,
-	nome VARCHAR(30),
+    id INT AUTO_INCREMENT NOT NULL,
+    nome VARCHAR(30),
     email VARCHAR(50),
     senha VARCHAR(30),
     sexo ENUM ('F', 'M'),
