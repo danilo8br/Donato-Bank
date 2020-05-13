@@ -28,7 +28,6 @@ from time import sleep
 ```
 
 ### Bank details
-
 <details><summary>Data</summary>
   Your bank details to connect
 </details>
@@ -57,7 +56,6 @@ con = MySQLdb.connect(host, user, password, db, port)
 c = con.cursor() 
 ```
 ### Menu
-Interactivity menu
 
 <details><summary>Menu</summary>
   Welcome
@@ -80,8 +78,7 @@ menu()
 
 ### Register
 
-
-<details><summary>User Register/summary>
+<details><summary>User Register</summary>
   Where user will register
 </details>
 
