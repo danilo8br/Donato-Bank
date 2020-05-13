@@ -41,6 +41,13 @@ db = "nome do banco"
 port = "porta" # Example: 3306
 ```
 
+<details><summary>connecting with bank</summary>
+  Connecting to your bank variables
+</details>
+
+```
+con = MySQLdb.connect(host, user, password, db, port)
+```
 
 
 
